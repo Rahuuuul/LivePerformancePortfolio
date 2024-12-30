@@ -30,7 +30,7 @@ body {
   }
 
 #menu #link {color: #ffffff;font-size: 3vh; padding-bottom: 3vh;}
-#menu a {color: #ffffff;}
+a {color: #ffffff;}
 #menu a.active {color: #b2b2b4;}
 
 #menu a:hover {color:#b2b2b4;}
