@@ -1,0 +1,39 @@
+body,html{padding:0;margin:0}
+html{font-family: 'Source Code Pro', monospace;background:#0a4a64;max-height:100vh; color: #FFFFFF;}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Side-by-side layout */
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  #menu {
+    width: 30%; /* Menu takes up 30% */
+    padding-left: 20px; /* Add some padding for better appearance */
+    padding-top: 5%;
+    overflow: hidden; /* Prevent scrolling */
+    box-sizing: border-box; /* Ensure padding is included in width */
+  }
+  #line {
+    margin-top: 5%; 
+    height: 80%;   
+    border-left: 0.5vh solid #ffffff;
+  }
+  
+  #showdetail {
+    width: 70%; /* Show detail takes up 70% */
+    padding-left: 20px; /* Add some padding for better appearance */
+    padding-top: 5%;
+    overflow-y: auto; /* Allow vertical scrolling */
+    box-sizing: border-box; /* Ensure padding is included in width */
+  }
+
+#menu #link {color: #ffffff;font-size: 3vh; padding-bottom: 3vh;}
+#menu a {color: #ffffff;}
+#menu a.active {color: #b2b2b4;}
+
+#menu a:hover {color:#b2b2b4;}
+  
+
+  
