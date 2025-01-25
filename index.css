@@ -41,5 +41,18 @@ body {
 
 #menu a:hover {color:#b2b2b4;}
   
+@media (max-width : 600px) {
+    body{display: inline;}
+    #menu #link {color: #ffffff;font-size: 2vh; padding-bottom: 2vh;}
+    #menu{width: 100%}
+    #line {
+        margin-left: 5%; 
+        width: 80%;
+        border-bottom: 0.1vh solid #ffffff;
+      }
+    #showdetail{width: 100%}
+
+
+}
 
   
