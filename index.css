@@ -41,7 +41,7 @@ body {
 
 #menu a:hover {color:#b2b2b4;}
   
-@media (pointer: coarse)  {
+@media screen and (max-width: 992px) {
     body{display: inline;}
     #menu #link {color: #ffffff;font-size: 2vh; padding-bottom: 2vh;}
     #menu{width: 100%}
