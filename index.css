@@ -36,6 +36,7 @@ body {
   }
   iframe{width: 90%;height: 80%;}
 
+p {width: 90%;}
 #menu #link {color: #ffffff;font-size: 3vh; padding-bottom: 3vh;}
 #menu a.active {color: #b2b2b4;}
 
